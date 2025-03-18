@@ -7,6 +7,18 @@ A simple Python script to download YouTube videos in MP4 or MP3 format using `yt
 - Supports specifying video quality
 - Requires `ffmpeg` for merging audio and video
 
+## To install dependencies from requirements.txt, run:
+- pip install -r requirements.txt
+
+## Download video as MP4 (best quality)
+- python3 youtubevideo.py -d mp4 -u <video_url>
+
+## Download MP3 (audio only)
+- python3 youtubevideo.py -d mp3 -u <video_url>
+
+## Download MP4 with specific quality (720p or 1080p)
+- python3 youtubevideo.py -d mp4 -c 1080p -u <video_url>
+
 ## Installation
 1. Install `yt-dlp` and `ffmpeg`:
    ```bash
