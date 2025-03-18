@@ -1,4 +1,3 @@
-# youtubevideo.py
 # YouTube Video Downloader
 
 A simple Python script to download YouTube videos in MP4 or MP3 format using `yt-dlp`.
