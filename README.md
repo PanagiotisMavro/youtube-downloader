@@ -7,7 +7,7 @@ A simple Python script to download YouTube videos in MP4 or MP3 format using `yt
 - Supports specifying video quality
 - Requires `ffmpeg` for merging audio and video
 
-## If Problem for pip? Can help you (Working) Kali Linux
+## If Problem for pip? Can help you (Working) Linux
 
  - sudo apt install python3-venv
  - python3 -m venv ~/myenv
