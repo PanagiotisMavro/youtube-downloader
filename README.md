@@ -1,4 +1,4 @@
-# YouTube Video Downloader
+# YouTube Video Downloader Terminal
 
 A simple Python script to download YouTube videos in MP4 or MP3 format using `yt-dlp`.
 
@@ -7,6 +7,12 @@ A simple Python script to download YouTube videos in MP4 or MP3 format using `yt
 - Supports specifying video quality
 - Requires `ffmpeg` for merging audio and video
 
+## If Problem for pip? Can help you (Working) Kali Linux
+
+ - sudo apt install python3-venv
+ - python3 -m venv ~/myenv
+ - source ~/myenv/bin/activate
+ 
 ## To install dependencies from requirements.txt, run:
 - pip install -r requirements.txt
 
